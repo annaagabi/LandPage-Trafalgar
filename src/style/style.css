@@ -20,7 +20,17 @@
     border: none;
     font-family: 'muli', sans-serif;
     font-size: 18px;
+    color: var(--second-color)
 }
+
+button{
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 55px;
+}
+
+/* HEADER */
 
 header{
     display: flex;
@@ -109,14 +119,105 @@ input[type=checkbox]{
 }
 .about-content button{
     color: var(--fourth-color);
-    font-weight: bold;
     background-color: #458FF6;
-    border-radius: 55px;
-    width: 200px;
-    height: 56px;
 }
 
 /* SEGUNDA SEÇÃO */
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 190px;
+    position: relative;
+    width: 1675.58px;
+}
+
+.services-container h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.services-container p{
+    color: var(--Third-color);
+    padding: 50px;
+    width: 992px;
+    z-index: 1;
+}
+
+.services-container button{
+    margin-top: 60px;
+    background-color: var(--fourth-color);
+    color: var(--main-color);
+    border: 1.4px solid var(--main-color);
+}
+
+.line{
+    width: 56px;
+    border: 2px solid var(--second-color);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.services-content{
+    display: flex;
+    width: 1120px;
+    flex-wrap: wrap;
+    gap: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 354px;
+    border-radius: 30px;
+    border: 1px solid var(--fourth-color);
+    box-shadow: 0px 10px 10px  #E5E9F6;
+    align-items: start;
+    text-align: justify;
+    justify-content: center;
+    background-color: var(--fourth-color);
+}
+
+.service-card img{
+    width: 50px;
+    margin: 10px 30px;
+}
+
+.service-card h3{
+    padding: 10px 30px;
+    font-size: 24px;
+}
+.service-card p{
+    padding: 0;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: auto;
+}
+
+#background-service {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: 0; 
+    width: 1000px; 
+    height: auto;
+}
+
+#little-balls-biggest {
+    position: absolute;
+    top: 500px; 
+    right: 230px;
+    z-index: 0;
+    width: 140px; 
+    height: auto;
+}
+
+
+
 /* TERCEIRA SEÇÃO */
 /* QUARTA SEÇÃO */
 /* QUINTA SEÇÃO */
@@ -129,6 +230,13 @@ input[type=checkbox]{
     *{
         font-size: 14px;
     }
+
+    button{
+        width: 150px;
+        height: 40px;
+    }
+
+    /* HEADER */
     header{
         margin: 33px 39px;
     }
@@ -197,12 +305,74 @@ input[type=checkbox]{
         padding: 25px 0;
     }
     .about-content button{
-        border-radius: 55px;
-        width: 142.86px;
-        height: 40px;
         font-size: 12px;
     }
+
     /* SEGUNDA SEÇÃO */
+    .services-container{
+        width: auto;
+        margin: 60px;
+        
+    }
+    
+    .services-container h2{
+        font-size: 30px;
+    }
+    
+    .services-container p{
+        width: 320px;
+        line-height: 25px;
+    }
+    
+    .line{
+        border: 1px solid var(--second-color);
+        border-radius: 5px;
+
+    }
+    
+    .services-content{
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .service-card{
+        width: 280px;
+        height: 283.2px;
+        box-shadow: 0px 5px 5px  #E5E9F6;
+        align-items: start;
+        text-align: justify;
+        justify-content: center;
+        background-color: var(--fourth-color);
+    }
+    
+    .service-card img{
+        width: 40px;
+        margin: 10px 30px;
+    }
+    
+    .service-card h3{
+        padding: 10px 30px;
+        font-size: 24px;
+    }
+    .service-card p{
+        padding: 0;
+        padding: 10px 30px;
+        font-size: 16px;
+        width: auto;
+    }
+    
+    #background-service {
+        top: 0px;
+        width: 350px; 
+        left: 120px;
+    }
+    
+    #little-balls-biggest {
+        display: none;
+    }
+
     /* TERCEIRA SEÇÃO */
     /* QUARTA SEÇÃO */
     /* QUINTA SEÇÃO */
