@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/* @import url("https://use.typekit.net/ypq7ybt.css"); */
+
+
+:root{
+    --main-color: #458FF6;
+    --second-color: #000000;
+    --Third-color: #7D7987;
+    --fourth-color: #FFFFFF;
+    --fifth-color: #233348;
+    --sixth-color: #1F1534 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'muli', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 191px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-container h1{
+    font-size: 24px;
+    color: var(--sixth-color)
+}
+
+.logo-container img{
+    width: 41px;
+    height: 41px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 37px;
+}
+
+nav a{
+    font-size: 18px;
+    color: var(--Third-color)
+}
+nav #bold{
+    color: var(--sixth-color);
+    font-weight: bold;
+}
+input[type=checkbox]{
+    display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 30px;
+    user-select: none;
+}
+
+@media(max-width: 700px){
+    header{
+        margin: 33px 39px;
+    }
+    
+    .logo-container{
+        gap: 12px;
+    }
+    
+    .logo-container h1{
+        font-size: 20px;
+    }
+    
+    .logo-container img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    nav{
+        display: none;
+        gap: 15px;
+        position: absolute;
+        flex-direction: column;
+        top: 100px;
+        right: 0;
+        margin-right: 25px;
+    }
+    
+    nav a{
+        font-size: 14px;
+    }
+
+    input[type=checkbox]:checked ~ nav{
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
