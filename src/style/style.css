@@ -9,7 +9,7 @@
     --Third-color: #7D7987;
     --fourth-color: #FFFFFF;
     --fifth-color: #233348;
-    --sixth-color: #1F1534 ;
+    --sixth-color: #1F1534;
 }
 
 *{
@@ -19,6 +19,7 @@
     box-sizing: border-box;
     border: none;
     font-family: 'muli', sans-serif;
+    font-size: 18px;
 }
 
 header{
@@ -52,7 +53,6 @@ nav{
 }
 
 nav a{
-    font-size: 18px;
     color: var(--Third-color)
 }
 nav #bold{
@@ -63,14 +63,26 @@ input[type=checkbox]{
     display: none;
 }
 
-/*HAMBURGER MENU*/
 .hamburger {
     display: none;
     font-size: 30px;
     user-select: none;
 }
 
+/* PRIMEIRA SEÇÃO */
+/* SEGUNDA SEÇÃO */
+/* TERCEIRA SEÇÃO */
+/* QUARTA SEÇÃO */
+/* QUINTA SEÇÃO */
+/* SEXTA SEÇÃO */
+/* FOOTER */
+
+
 @media(max-width: 700px){
+
+    *{
+        font-size: 14px;
+    }
     header{
         margin: 33px 39px;
     }
@@ -97,10 +109,6 @@ input[type=checkbox]{
         right: 0;
         margin-right: 25px;
     }
-    
-    nav a{
-        font-size: 14px;
-    }
 
     input[type=checkbox]:checked ~ nav{
         display: flex;
@@ -109,4 +117,12 @@ input[type=checkbox]{
     .hamburger {
         display: block;
     }
+
+    /* PRIMEIRA SEÇÃO */
+    /* SEGUNDA SEÇÃO */
+    /* TERCEIRA SEÇÃO */
+    /* QUARTA SEÇÃO */
+    /* QUINTA SEÇÃO */
+    /* SEXTA SEÇÃO */
+    /* FOOTER */
 }
