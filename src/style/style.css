@@ -238,11 +238,7 @@ input[type=checkbox]{
         height: 40px;
     }
 
-    /* HEADER */
-    header{
-        margin: 33px 39px;
-    }
-    
+    /* HEADER */   
     .logo-container{
         gap: 12px;
     }
