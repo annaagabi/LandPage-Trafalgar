@@ -131,7 +131,7 @@ input[type=checkbox]{
     text-align: center;
     margin: 190px;
     position: relative;
-    width: 1675.58px;
+    max-width: 1675.58px;
 }
 
 .services-container h2{
@@ -209,8 +209,10 @@ input[type=checkbox]{
 
 #little-balls-biggest {
     position: absolute;
-    top: 500px; 
-    right: 230px;
+    /* top: 500px;  */
+    top: 28em;
+    /* right: 230px; */
+    right: 8em;
     z-index: 0;
     width: 140px; 
     height: auto;
