@@ -235,6 +235,7 @@ input[type=checkbox]{
     width: 486px;
     height: 388px;
     text-align: left;
+    margin-top: 57px;
 }
 
 .leading-content h2{
