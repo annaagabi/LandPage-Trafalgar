@@ -238,7 +238,12 @@ input[type=checkbox]{
         height: 40px;
     }
 
-    /* HEADER */   
+    /* HEADER */  
+    
+    header{
+        gap: 20px;
+        margin: 33px 39px;
+    }
     .logo-container{
         gap: 12px;
     }
@@ -260,6 +265,7 @@ input[type=checkbox]{
         top: 100px;
         right: 0;
         margin-right: 25px;
+        justify-content: center;
     }
 
     input[type=checkbox]:checked ~ nav{
