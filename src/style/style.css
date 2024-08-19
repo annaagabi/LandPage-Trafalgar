@@ -383,6 +383,77 @@ input[type=checkbox]{
 }
 
 /* SEXTA SEÇÃO */
+.article-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 129px 240px;
+}
+.article-container h2{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 26px;
+}
+.article-container button{
+    background-color: var(--fourth-color);
+    border: 1.4px solid var(--main-color);
+    color: var(--main-color);
+    margin-top: 69px;
+}
+
+.article-content{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    margin-top: 79px;
+}
+
+.article-card{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 8px  #E5E9F6;
+}
+.article-card img{
+    width: 100%;
+}
+
+.article-text{
+    padding: 35px;
+}
+
+.article-text h3{
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.article-text p{
+    font-size: 16px;
+    color: var(--Third-color);
+}
+.article-text button{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border: none;
+    margin-top: 0;
+}
+.article-text img{
+   width: 15px;
+}
+
+#balls-article{
+    position: absolute;
+    left: 340px;
+    top: 4460px
+    /* margin-left: 200px; */
+}
+#background-article{
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+}
+
 /* FOOTER */
 
 
@@ -659,5 +730,53 @@ input[type=checkbox]{
     }
 
     /* SEXTA SEÇÃO */
+    .article-container{
+        margin: 80px 32px;
+        text-align: center;
+
+    }
+    .article-container h2{
+        font-size: 30px;
+        line-height: 60px;
+        padding-bottom: 11px;
+        width: 246px;
+    }
+    .article-container button{
+        margin-top: 60px;
+    }
+    
+    .article-content{
+        gap: 53px;
+        flex-direction: column;
+        margin-top: 60px;
+        justify-content: center;
+    }
+    
+    .article-card{
+        width: 300px;
+        box-shadow: 0px 5px 5px #E5E9F6;
+    }
+    
+    .article-text{
+        padding: 21px;
+        text-align: justify;
+    }
+    
+    .article-text h3{
+        font-size: 18px;
+    }
+
+    .article-text img{
+       width: 15px;
+    }
+    
+    #balls-article{
+        display: none;
+    }
+
+    #background-article{
+        display: none;
+    }
+
     /* FOOTER */
 }
