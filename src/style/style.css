@@ -603,6 +603,61 @@ input[type=checkbox]{
     }
 
     /* QUINTA SEÇÃO */
+    .comments-container{
+        margin: 73px 37px;
+        gap: 33px;
+    }
+    .comments-container img{
+        width: 171px;
+    }
+    
+    #comment-balls-blue{
+        display: none;
+    }
+    #comment-balls-white{
+        display: none;
+    }
+    
+    .comments-content{
+        width: 300px;
+        height: auto;
+        border-radius: 24px;
+    }
+    .comments-content h2{
+        font-size: 25px;
+        margin-top: 28px;
+    }
+    
+    .line-white{
+        border: 1px solid var(--fourth-color);
+        border-radius: 5px;
+    }
+    .card-comment{
+        flex-direction: column;
+        margin: 28px 34px;
+        gap: 17px;
+    }
+    
+    .comment-about{
+        width: 219px;
+    }
+    
+    .comment-about h3{
+        font-size: 18px;
+        color: var(--fourth-color);
+        font-weight: bold;
+        padding-left: 23px;
+    } 
+    .comment-about img{
+        width: 50px;
+        height: 50px;
+    } 
+    
+    .comment{
+        width: 233px;
+        font-size: 12px;
+    }
+
     /* SEXTA SEÇÃO */
     /* FOOTER */
 }
