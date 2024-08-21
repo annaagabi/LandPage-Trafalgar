@@ -407,6 +407,7 @@ input[type=checkbox]{
     gap: 34px;
     align-items: center;
     margin-top: 79px;
+    position: absolute;
 }
 
 .article-card{
@@ -443,15 +444,14 @@ input[type=checkbox]{
 }
 
 #balls-article{
-    position: absolute;
-    left: 340px;
-    top: 4460px
+    /* position: relative; */
+    margin-right: 1100px;
+    margin-top: 420px
     /* margin-left: 200px; */
 }
 #background-article{
-    position: absolute;
-    right: 0;
-    margin-right: 0;
+   position: relative;
+   right: 0;
 }
 
 /* FOOTER */
