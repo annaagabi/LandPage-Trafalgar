@@ -47,7 +47,7 @@ header{
 
 .logo-container h1{
     font-size: 24px;
-    color: var(--sixth-color)
+    color: var(--sixth-color);
 }
 
 .logo-container img{
@@ -474,7 +474,7 @@ footer{
     color: var(--fourth-color);
     padding-top: 20px;
 }
-.logo-container h1{
+.footer-content .logo-container h1{
     color: var(--fourth-color);
     font-size: 24px;
     font-weight: bold;
